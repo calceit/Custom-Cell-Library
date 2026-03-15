@@ -1,0 +1,94 @@
+magic
+tech tsmc180
+timestamp 1764866802
+<< nwell >>
+rect 0 496 165 948
+<< polysilicon >>
+rect 66 547 75 559
+rect 132 533 141 558
+rect 66 429 75 498
+rect 132 424 141 512
+rect 66 391 75 402
+rect 132 391 141 403
+<< ndiffusion >>
+rect 40 402 66 429
+rect 75 402 78 429
+<< pdiffusion >>
+rect 40 498 66 547
+rect 75 498 78 547
+<< pohmic >>
+rect 0 18 10 39
+rect 157 18 165 39
+<< nohmic >>
+rect 0 923 8 944
+rect 159 923 165 944
+<< ntransistor >>
+rect 66 402 75 429
+<< ptransistor >>
+rect 66 498 75 547
+<< polycontact >>
+rect 66 559 89 582
+rect 132 558 155 581
+rect 120 512 141 533
+rect 120 403 141 424
+<< ndiffcontact >>
+rect 19 402 40 429
+rect 78 402 99 429
+<< pdiffcontact >>
+rect 19 498 40 547
+rect 78 498 99 547
+<< psubstratetap >>
+rect 10 18 157 39
+<< nsubstratetap >>
+rect 8 923 159 944
+<< metal1 >>
+rect 0 944 165 948
+rect 0 923 8 944
+rect 159 923 165 944
+rect 0 899 165 911
+rect 99 517 120 529
+rect 0 466 165 478
+rect 99 408 120 420
+rect 0 113 165 125
+rect 0 84 165 96
+rect 0 55 165 67
+rect 0 18 10 39
+rect 157 18 165 39
+rect 0 14 165 18
+<< m2contact >>
+rect 20 923 39 942
+rect 66 559 89 582
+rect 132 558 155 581
+rect 20 547 39 555
+rect 20 536 39 547
+rect 19 402 40 423
+rect 19 18 40 39
+<< metal2 >>
+rect 19 555 40 923
+rect 19 547 20 555
+rect 39 547 40 555
+rect 66 582 80 962
+rect 132 581 146 962
+rect 19 39 40 402
+rect 66 0 80 559
+rect 132 0 146 558
+<< labels >>
+rlabel metal1 0 14 0 39 3 GND!
+rlabel metal1 165 14 165 39 7 GND!
+rlabel metal1 0 923 0 948 3 Vdd!
+rlabel metal1 165 923 165 948 7 Vdd!
+rlabel metal1 0 899 0 911 3 ScanReturn
+rlabel metal1 0 55 0 67 3 nReset
+rlabel metal1 0 84 0 96 3 Clock
+rlabel metal1 0 113 0 125 3 Test
+rlabel metal1 165 466 165 478 7 Scan
+rlabel metal1 0 466 0 478 3 Scan
+rlabel metal1 165 55 165 67 7 nReset
+rlabel metal1 165 84 165 96 7 Clock
+rlabel metal1 165 113 165 125 7 Test
+rlabel metal1 165 899 165 911 7 ScanReturn
+rlabel metal2 66 962 80 962 5 A
+rlabel metal2 132 962 146 962 5 Y
+rlabel metal2 66 0 80 0 1 A
+rlabel metal2 132 0 146 0 1 Y
+<< end >>

@@ -1,0 +1,105 @@
+magic
+tech tsmc180
+timestamp 1764867118
+<< nwell >>
+rect 0 496 198 948
+<< polysilicon >>
+rect 66 546 75 561
+rect 132 546 141 561
+rect 66 430 75 497
+rect 132 430 141 497
+rect 66 392 75 403
+rect 132 392 141 403
+<< ndiffusion >>
+rect 63 403 66 430
+rect 75 403 95 430
+rect 116 403 132 430
+rect 141 403 144 430
+<< pdiffusion >>
+rect 47 497 66 546
+rect 75 497 132 546
+rect 141 497 144 546
+<< pohmic >>
+rect 0 18 9 39
+rect 189 18 198 39
+<< nohmic >>
+rect 0 923 9 944
+rect 190 923 198 944
+<< ntransistor >>
+rect 66 403 75 430
+rect 132 403 141 430
+<< ptransistor >>
+rect 66 497 75 546
+rect 132 497 141 546
+<< polycontact >>
+rect 66 561 89 584
+rect 128 561 151 584
+<< ndiffcontact >>
+rect 42 403 63 430
+rect 95 403 116 430
+rect 144 403 165 430
+<< pdiffcontact >>
+rect 26 497 47 546
+rect 144 497 165 546
+<< psubstratetap >>
+rect 9 18 189 39
+<< nsubstratetap >>
+rect 9 923 190 944
+<< metal1 >>
+rect 0 944 198 948
+rect 0 923 9 944
+rect 190 923 198 944
+rect 0 899 198 911
+rect 0 466 198 478
+rect 46 442 161 454
+rect 46 430 58 442
+rect 149 430 161 442
+rect 0 113 198 125
+rect 0 84 198 96
+rect 0 55 198 67
+rect 0 18 9 39
+rect 189 18 198 39
+rect 0 14 198 18
+<< m2contact >>
+rect 26 923 47 944
+rect 66 561 89 584
+rect 128 561 151 584
+rect 26 525 47 546
+rect 160 527 165 546
+rect 165 527 179 546
+rect 96 403 115 422
+rect 160 411 165 430
+rect 165 411 179 430
+rect 96 20 115 39
+<< metal2 >>
+rect 26 546 47 923
+rect 66 584 80 962
+rect 132 584 146 962
+rect 66 0 80 561
+rect 95 39 116 403
+rect 132 0 146 561
+rect 165 546 179 962
+rect 165 430 179 527
+rect 165 0 179 411
+<< labels >>
+rlabel metal1 0 923 0 948 3 Vdd!
+rlabel metal1 0 14 0 39 3 GND!
+rlabel metal1 0 899 0 911 3 ScanReturn
+rlabel metal1 0 466 0 478 3 Scan
+rlabel metal1 0 113 0 125 3 Test
+rlabel metal1 0 84 0 96 3 Clock
+rlabel metal1 0 55 0 67 3 nReset
+rlabel metal1 198 923 198 948 7 Vdd!
+rlabel metal1 198 14 198 39 7 GND!
+rlabel metal1 198 55 198 67 7 nReset
+rlabel metal1 198 84 198 96 7 Clock
+rlabel metal1 198 113 198 125 7 Test
+rlabel metal1 198 466 198 478 7 Scan
+rlabel metal1 198 899 198 911 7 ScanReturn
+rlabel metal2 66 962 80 962 5 A
+rlabel metal2 165 962 179 962 5 Y
+rlabel metal2 132 962 146 962 5 B
+rlabel metal2 66 0 80 0 1 A
+rlabel metal2 165 0 179 0 1 Y
+rlabel metal2 132 0 146 0 1 B
+<< end >>
